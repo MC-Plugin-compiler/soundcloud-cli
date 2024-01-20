@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - run: echo "1.0.0+1" > .version # this file seems to be required for the dry-mode
 
@@ -24,7 +24,7 @@ jobs:
           # update-file: .version
 
       - name: Build
-        uses: actions/setup-go@v2
+        uses: actions/setup-go@v5
         with:
           go-version: "1.19" # The Go version to download (if necessary) and use.
       - run: go version

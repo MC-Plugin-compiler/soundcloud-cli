@@ -33,7 +33,7 @@ USAGE:
    main [global options] command [command options] [arguments...]
 
 VERSION:
-   1.0.0
+   1.0.1
 
 COMMANDS:
    download, dl  Download a track

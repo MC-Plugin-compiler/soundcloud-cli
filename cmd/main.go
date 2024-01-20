@@ -20,7 +20,7 @@ var app = cli.NewApp()
 func info() {
 	app.Name = "SoundCloud CLI"
 	app.Usage = "A simple CLI to interact with tracks on SoundCloud"
-	app.Version = "1.0.0"
+	app.Version = "1.0.1"
 	app.Commands = commands()
 }
 
